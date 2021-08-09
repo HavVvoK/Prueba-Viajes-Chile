@@ -5,6 +5,7 @@
 .header .navbar {
     background-color: transparent !important;
     color: white;
+    font-family: 'open sans', sans-serif;
   }
 
 body {
@@ -13,6 +14,14 @@ body {
   color: white;
 }
 
-h2 {text-align: center;
+h2 {
+  font-family: 'open sans', sans-serif;
+  font: weight 400px; ;
+  text-align: center;
 color: white;
+}
+
+p {
+text-align: left;
+
 }
