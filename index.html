@@ -2,24 +2,88 @@
 <html lang="es" dir="ltr">
     <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/viajes.svg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Adrian Roman">
     <meta name="description" content="Viajes por Chile"> 
     <title>Viajes Chile</title>
 
-    <!--CSS-->
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!--Bootstrap CSS v 5.1.0-->
+       <!--Bootstrap CSS v 5.1.0-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!--Fonts-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans&display=swap" rel="stylesheet">
+    
     <!--Fonts Awesome-->
+    <script src="https://kit.fontawesome.com/459614a794.js" crossorigin="anonymous"></script>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
     </head>
     <body>
 
+    <!--Bootstrap NavBar-->
+    <header class="header">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#icono">Viajes Chile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+<!--Hero section carousel-->
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="1">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="2">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+    </header>
+    <body>
+
+
+
+
+    </body>
+        
     <!--Bootstrap JS Bundle-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
