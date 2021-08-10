@@ -1,3 +1,5 @@
+//Smoothscroll
+
 $(function(){
     $("a").on('click', function(event) {
 
@@ -21,3 +23,5 @@ $(function(){
         } // End if
       });
     });
+
+    
