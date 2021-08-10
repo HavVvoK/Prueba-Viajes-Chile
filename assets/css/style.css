@@ -8,6 +8,9 @@
     font-family: 'open sans', sans-serif;
   }
 
+.img-responsive {
+  max-width: 60px;
+}
 body {
   font-family: 'open sans', sans-serif;
   background-color: black;
